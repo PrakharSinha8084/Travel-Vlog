@@ -1,0 +1,35 @@
+body{
+    background-color: aqua;
+}
+
+.imgBox{
+    width:150px;
+    height:150px;
+    /* border: 3px solid black; */
+    background-image:url("Carry.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    left:40px;
+    top:25px;
+    cursor:pointer;
+    /* align-items: center; */
+    /* background-image: 100px; */
+    
+}
+
+.whiteBox{
+    width:170px;
+    height: 170px;
+    margin:10px;
+    background-color: grey;
+    display: inline-block;
+    /* border: 3px solid black; */
+
+}
+
+.dragover{
+    border:2px solid black;
+}
+.hide{
+    display:none;
+}
